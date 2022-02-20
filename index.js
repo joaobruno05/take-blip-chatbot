@@ -17,7 +17,8 @@ app.get('/', async (_req, res) => {
     }));
 
     const result = dataFilterMap.slice(0, 5);
-    return res.status(200).json(result);
+
+    return res.status(200).json({ ...result });
   } catch (error) {
     const { response: { status, data } } = error;
 
