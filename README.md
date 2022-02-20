@@ -3,7 +3,7 @@
 
 ## Solicitado:
 
-- Criação de API que consuma os dados da API do github e retorne dados específicos para serem consumidos na aplicação desenvolvida na plataforma Blip
+- Criação de API intermediária que consuma a API do github e retorne dados específicos para serem consumidos na aplicação desenvolvida na plataforma Blip
 - Criar um chatbot de acordo com o fluxo conversacional enviado
 - Exportar o fluxo do chatbot para avaliação junto com a API criada
 
